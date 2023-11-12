@@ -3,7 +3,7 @@
 - **Contributors**: [Krish Rupapara](https://github.com/KrishRupapara) & [Utsav Maru](https://github.com/utsavmaru)
 - **Date**: 12-11-2023
 - **Dataset**: Dataset is scrapped from the [ESPN](https://www.espncricinfo.com/) website.
-- In this task, we have used the Dense Neural Network to predict the outcome of the ICC CWC 2023. We've also used techniques like hyperparameter tuning to improve the performance of the model.
+- In this task, we have used the Deep Neural Network to predict the outcome of the ICC CWC 2023. We've also used techniques like hyperparameter tuning to improve the performance of the model.
 
 ## Task
 
