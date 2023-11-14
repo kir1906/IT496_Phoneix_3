@@ -1,0 +1,46 @@
+﻿team1,team2,match_played,team1_win,team2_win
+India,South Africa,30,15,14
+India,Australia,44,21,22
+India,New Zealand,27,11,12
+India,Pakistan,14,9,4
+India,Afghanistan,3,2,0
+India,Sri Lanka,39,31,7
+India,Bangladesh,18,11,6
+India,England,36,19,14
+India,Netherlands,1,1,0
+South Africa,Australia,51,34,15
+South Africa,New Zealand,20,11,8
+South Africa,Pakistan,25,13,12
+South Africa,Afghanistan,1,1,0
+South Africa,Sri Lanka,34,22,11
+South Africa,Bangladesh,11,6,5
+South Africa,Netherlands,3,3,0
+South Africa,England,26,11,12
+Australia,New Zealand,18,11,5
+Australia,Pakistan,22,17,5
+Australia,Afghanistan,2,2,0
+Australia,Sri Lanka,31,16,13
+Australia,Bangladesh,4,3,0
+Australia,Netherlands,0,0,0
+Australia,England,49,26,22
+New Zealand,Pakistan,33,19,12
+New Zealand,Afghanistan,2,2,0
+New Zealand,Sri Lanka,27,14,9
+New Zealand,Bangladesh,20,14,5
+New Zealand,Netherlands,3,3,0
+New Zealand,England,25,9,15
+Pakistan,Afghanistan,7,7,0
+Pakistan,Sri Lanka,36,22,13
+Pakistan,Bangladesh,12,8,4
+Pakistan,Netherlands,3,3,0
+Pakistan,England,20,4,15
+Afghanistan,Sri Lanka,11,3,7
+Afghanistan,Bangladesh,15,7,8
+Afghanistan,Netherlands,5,4,1
+Afghanistan,England,2,0,2
+Sri Lanka,Bangladesh,24,15,7
+Sri Lanka,Netherlands,2,2,0
+Sri Lanka,England,36,14,16
+Bangladesh,Netherlands,1,1,0
+Bangladesh,England,10,4,6
+Netherlands,England,1,0,1
