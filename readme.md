@@ -161,7 +161,19 @@ The data was scrapped, cleaned and preprocessed from the [ESPN](https://www.espn
   - The opposition team
   - The venue of that match
   - The date of the match
-- **Result**
+- The data for the matches contains features such as,
+
+  - Batting score of the player using a predeterimined formula
+  - Bowling score of the player using a predeterimined formula
+  - Batting score of the all rounder
+  - Bowling score of the all rounder
+  - Wicketkeeping score of the player
+  - The opposition team
+  - The player's role
+  - The date of the match
+  - The team of the player
+
+    **Result**
 
   - **For India**
 
