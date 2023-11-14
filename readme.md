@@ -173,7 +173,7 @@ The data was scrapped, cleaned and preprocessed from the [ESPN](https://www.espn
   - The date of the match
   - The team of the player
 
-    **Result**
+  **Result**
 
   - **For India**
 
