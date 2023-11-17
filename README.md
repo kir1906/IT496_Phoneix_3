@@ -4,9 +4,10 @@
 <h3>Problem Description : </h3>
 <p>Predicting the batsman who will score most runs and hit most fours in the tournament.</p>
 <b>Dataset</b>:<p> Dataset is scrapped from the <a href='https://www.espncricinfo.com/'>espncricinfo</a> website. </p>
+<p>In this task, we have used the Deep Neural Network to predict the outcome of the ICC Cricket World Cup 2023. We've also used techniques like hyperparameter tuning to improve the performance of the model.</p>
+
 
 <b> Dataset description of Player_ODIwise : </b>
-
 <ol>
 <li>Player: Name of the cricket player.
 </li>
