@@ -3,28 +3,22 @@ from fastapi import FastAPI
 import numpy as np
 import pickle 
 import pandas as pd
-# from tensorflow import keras
-# from tensorflow.keras import models
-from player import player
-from player import totalRun
+from tensorflow import keras
+from player import player, totalRun
 from sklearn.preprocessing import StandardScaler
 
-
-
 app = FastAPI()
-# total_run_model = keras.models.load_model('./models/total_run_prediction.h5')
+total_run_prediction_model = keras.models.load_model('./models/total_run_prediction.h5')
 # most_fours_model = keras.models.load_model('./models/most_fours.h5')
 # finalists_model = keras.models.load_model('./models/Final_Model.keras')
 
-# pickle_model = open('./models/11players.pkl', 'rb')
-# players_model = pickle.load(pickle_model)
 
 
 pickle_model = open("players2.pkl", "rb")
 players_model = pickle.load(pickle_model)
 
-pickle_model1 = open("total_run_prediction.pkl", "rb")
-total_run_prediction_model = pickle.load(pickle_model1)
+# pickle_model1 = open("total_run_prediction.pkl", "rb")
+# total_run_prediction_model = pickle.load(pickle_model1)
 
 @app.post('/player')
 def predict(data:player):
@@ -83,7 +77,7 @@ def predict(data:totalRun):
     AVG_BF,
     Player_pre,
     Team_pre]])
-    # prediction = players_model.predict([[-1.41234016,  0.19088097, -0.80355172,  0.17038773,  0.12463426,0.17287699, -1.03077641, -1.10049766, -1.03077641]])
+   
     return {
         'prediction': prediction.tolist()
     }
