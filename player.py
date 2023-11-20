@@ -20,10 +20,10 @@ class totalRun(BaseModel):
     England: float
     India: float
     Netherlands: float
-    New_Zealand: float = Field(..., alias='New Zealand')
+    NewZealand: float 
     Pakistan: float
-    South_Africa: float = Field(..., alias='South Africa')
-    Sri_Lanka: float = Field(..., alias='Sri Lanka')
+    SouthAfrica: float 
+    SriLanka: float
     AVG_Run: float
     AVG_SR: float
     AVG_BF: float
@@ -31,12 +31,6 @@ class totalRun(BaseModel):
     Team_pre: float
 
 
-class Config:
-        fields = {
-            'New Zealand': 'new_zealand',
-            'South Africa': 'south_africa',
-            'Sri Lanka': 'sri_lanka',
-        }
 #player
 # {
 #   "Name": -1.41234016,
@@ -50,7 +44,7 @@ class Config:
 #   "Team": -1.03077641
 # }
 
-#totalrun
+# totalrun
 # {
 #     "Mat": 1.95815139, 
 #     "Inns": 2.44437371, 
@@ -58,12 +52,12 @@ class Config:
 #     "Australia": 0.66948347,
 #     "Bangladesh": 1.10318461,
 #     "England" : 0.61029341,
-#     "India" : 0.,
+#     "India" : 0,
 #     "Netherlands" : 1.98640736,
-#     "New Zealand": 0.71761757,
+#     "NewZealand": 0.71761757,
 #     "Pakistan": 0.76641804, 
-#     "South Africa" : 0.72984558, 
-#     "Sri Lanka" : 0.58558649,
+#     "SouthAfrica" : 0.72984558, 
+#     "SriLanka" : 0.58558649,
 #     "AVG_Run" : 2.10224609,
 #     "AVG_SR" : 0.22749678, 
 #     "AVG_BF" : 1.78218302,

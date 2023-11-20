@@ -8,7 +8,7 @@ from player import player, totalRun
 from sklearn.preprocessing import StandardScaler
 
 app = FastAPI()
-total_run_prediction_model = keras.models.load_model('./models/total_run_prediction.h5')
+
 # most_fours_model = keras.models.load_model('./models/most_fours.h5')
 # finalists_model = keras.models.load_model('./models/Final_Model.keras')
 
@@ -17,8 +17,7 @@ total_run_prediction_model = keras.models.load_model('./models/total_run_predict
 pickle_model = open("players2.pkl", "rb")
 players_model = pickle.load(pickle_model)
 
-# pickle_model1 = open("total_run_prediction.pkl", "rb")
-# total_run_prediction_model = pickle.load(pickle_model1)
+total_run_prediction_model = keras.models.load_model('./models/total_run_prediction.h5')
 
 @app.post('/player')
 def predict(data:player):
@@ -51,10 +50,10 @@ def predict(data:totalRun):
     England=data['England']
     India=data['India']
     Netherlands=data['Netherlands']
-    New_Zealand=data['New_Zealand']
+    NewZealand=data['NewZealand']
     Pakistan=data['Pakistan']
-    South_Africa=data['South_Africa']
-    Sri_Lanka=data['Sri_Lanka']
+    SouthAfrica=data['SouthAfrica']
+    SriLanka=data['SriLanka']
     AVG_Run=data['AVG_Run']
     AVG_SR=data['AVG_SR']
     AVG_BF=data['AVG_BF']
@@ -68,10 +67,10 @@ def predict(data:totalRun):
     England,
     India,
     Netherlands,
-    New_Zealand,
+    NewZealand,
     Pakistan,
-    South_Africa,
-    Sri_Lanka,
+    SouthAfrica,
+    SriLanka,
     AVG_Run,
     AVG_SR,
     AVG_BF,
