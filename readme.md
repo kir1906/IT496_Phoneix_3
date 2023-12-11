@@ -16,6 +16,11 @@
 - The branch [T2](https://github.com/kir1906/IT496_Phoneix_3/tree/T2) contains the code for the predicting the finalists and the winner of the ICC CWC 2023.
 
 ---
+You can run deployed model using command  : 
+
+```bash
+python -m uvicorn main:app --reload
+```
 
 ## Task 1
 
