@@ -11,17 +11,17 @@ import pandas as pd
 import tensorflow
 import keras
 #create the app object
-most_fours_model = keras.models.load_model('most_fours.h5')
-finalists_model = keras.models.load_model('finalist.h5')
-total_run_model = keras.models.load_model('total_run_prediction.h5')
+most_fours_model = keras.models.load_model('./models/most_fours.h5')
+finalists_model = keras.models.load_model('./models/finalist.h5')
+total_run_model = keras.models.load_model('./models/total_run_prediction.h5')
 app=FastAPI()
 templates = Jinja2Templates(directory="templates")
-pickle_mod = open('player.pkl', 'rb')
+pickle_mod = open('./models/player.pkl', 'rb')
 model,standard = pickle.load(pickle_mod)
 pickle_mod.close()
-pickle_mo = open('finalist.pkl', 'rb')
+pickle_mo = open('./models/finalist.pkl', 'rb')
 standard_1 = pickle.load(pickle_mo)
-pickle_m = open('most_fours.pkl', 'rb')
+pickle_m = open('./models/most_fours.pkl', 'rb')
 standard_2 = pickle.load(pickle_m)
 
 def co(data,standard_scaler):
